@@ -1,5 +1,5 @@
 
-/* Zmienne dla kolorow */
+/* variables for colors */
 :root {
     --color-primary: #08A6E4;
     --color-primary-shadow: rgba(7, 172, 230, .16);
@@ -13,3 +13,11 @@
     --font-raleway: "Raleway", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
   }
+
+  /* is used for center containers with elements */
+  .container {
+      width: 1352px;
+      margin: 0 auto;
+  }
+
+  
