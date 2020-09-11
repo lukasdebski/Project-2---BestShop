@@ -12,12 +12,76 @@
     --button-radius: 35px;
     --font-raleway: "Raleway", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
-  }
+}
 
-  /* is used for center containers with elements */
-  .container {
-      width: 1352px;
-      margin: 0 auto;
-  }
+/* is used for center containers with elements */
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
 
+/* body */
+
+body {
+    min-height: 200vh;
+}
+
+/* Section Logo + nav*/
   
+.section__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+/* menu */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* menu Logo */
+
+.menu__logo {
+    font-size: 32px;
+    color: var(--color-primary);
+    font-family: var(--font-raleway);
+    font-weight: light;
+}
+
+  /* section menu nav */
+
+.menu__nav {}
+
+.menu__nav--text li {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    list-style: none;
+    line-height: 70px;
+    margin: 0 30px 0 30px;
+}
+
+.menu__nav--text a {
+    padding: 25px;
+    font-family: var(--font-open-sans);
+    color: var(--color-grey);
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu__nav--text a:hover {
+    color: var(--color-black);
+    border-bottom: 3px solid var(--color-primary);
+}
+
+
