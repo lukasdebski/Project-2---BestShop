@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 /* variables for colors */
 :root {
@@ -28,7 +31,7 @@ body {
 
 /* Section Logo + nav*/
   
-.section__menu {
+.header__menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -54,6 +57,7 @@ body {
     color: var(--color-primary);
     font-family: var(--font-raleway);
     font-weight: light;
+    text-decoration: none;
 }
 
   /* section menu nav */
@@ -65,7 +69,10 @@ body {
     margin: 0 20px 0 20px;
     list-style: none;
     line-height: 70px;
-    margin: 0 30px 0 30px;
+}
+
+.menu__nav--text li:last-child {
+    margin-right: 0;
 }
 
 .menu__nav--text a {
@@ -84,4 +91,53 @@ body {
     border-bottom: 3px solid var(--color-primary);
 }
 
+/* HEADER Opening */
 
+.opening {
+    height: 720px;
+}
+
+.opening__content {
+    margin-top: 200px;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.content__title {
+    margin-bottom: 20px;
+}
+
+.content__text {
+    margin-bottom: 52px;
+}
+
+.title--h1 {
+    font: normal normal normal 49px/57px Raleway;
+}
+
+.text--p {
+    font: normal normal normal 16px/22px Open Sans;
+}
+
+.content__btn--big {
+    padding: 22px 155px;
+    text-decoration: none;
+}
+
+.content__btn--edit {
+    color: var(--color-white);
+    background: var(--color-primary);
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+}
+
+
+/* SECTION opening img */
+
+.content__img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
