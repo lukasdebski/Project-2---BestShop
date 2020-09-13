@@ -372,3 +372,111 @@ body {
     width: 330px;
     background-color: var(--color-green);
 }
+
+/* Section Pricing */
+
+.pricing__containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.pricing__title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pricing__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 372px;
+    height: 461px;
+    border-radius: 18px;
+}
+
+/* CONTAINER */
+
+.pricing__container--basic {
+    border: 1px solid var(--color-redish);
+}
+
+.pricing__container--professional {
+    border: 1px solid var(--color-primary);
+    width: 405px;
+    height: 500px;
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
+.pricing__container--premium {
+    border: 1px solid var(--color-green);
+}
+
+/* PRICING details */
+
+.pricing__details,
+.pricing__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-black);
+}
+
+.pricing__type {
+    font: normal normal bold 21px Raleway;
+    margin-top: 34px;
+}
+
+.pricing__price {
+    font: normal normal 300 46px/70px Open Sans;
+    margin-top: 14px;
+    color: var(--color-redish);
+}
+
+.professional__price--color {
+    color: var(--color-primary);
+}
+
+.premium__price--color {
+    color: var(--color-green);
+}
+
+.pricing__limited {
+    font: normal normal bold 12px Raleway;
+}
+
+/* PRICING items */
+
+.pricing__items {
+    height: 180px;
+    justify-content: space-between;
+}
+
+.pricing__item {
+    font: normal normal normal 14px Open Sans;
+}
+
+/* PRICING BTN */
+
+.pricing__btn {
+    position: relative;
+    bottom: -23px;
+    padding: 16px 57px;
+    background-color: var(--color-redish);
+    font: normal normal bold 13px Open Sans;
+    color: white;
+    border-radius: 23px;
+    text-decoration: none;
+}
+
+.professional__btn--color {
+    padding: 16px 64px;
+    background-color: var(--color-primary);
+}
+
+.premium__btn--color {
+    background-color: var(--color-green);
+}
