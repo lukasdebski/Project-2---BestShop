@@ -459,6 +459,19 @@ body {
     font: normal normal normal 14px Open Sans;
 }
 
+.pricing__item::before, .pricing__item--cross::before {
+    content: "";
+    background-image: url(/assets/Checkmark-1.svg);
+    width: 11px;
+    height: 11px;
+    margin-right: 13px;
+    display: inline-block;
+}
+
+.pricing__item--cross::before {
+    background-image: url(/assets/close.svg);
+}
+
 /* PRICING BTN */
 
 .pricing__btn {
