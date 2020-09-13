@@ -493,3 +493,54 @@ body {
 .premium__btn--color {
     background-color: var(--color-green);
 }
+
+/* SECTION FORM */
+
+
+/* FOOTER */
+
+.container__footer {
+    width: 1450px;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 90px;
+    background: var(--color-light-grey);
+    box-shadow: 0px -5px 40px #00000029;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.footer__logo {
+    font: normal normal 300 26px Raleway;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.footer__rights {
+    margin-top: 6px;
+    font: normal normal normal 11px/15px Open Sans;
+    color: var(--color-grey);
+}
+
+.icon__twitter {
+    margin-right: 20px;
+}
+
+.icon__twitter::after, .icon__facebook::after {
+    content: "";
+    background-image: url(/assets/Twitter.svg);
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.icon__facebook::after {
+    background-image: url(/assets/Facebook.svg);
+}
