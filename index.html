@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project BestShop</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+        integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <header class="header__menu">
         <div class="container">
             <div class="menu">
                 <a href="#" class="menu__logo">BestShop</a>
-                <nav class="menu__nav menu__nav--text">
-                    <li><a href="#">why us</a></li>
-                    <li><a href="#">benefits</a></li>
-                    <li><a href="#">prices</a></li>
-                    <li><a href="#">contact</a></li>
+                <nav class="menu__items">
+                    <li class="menu--item"><a href="#">why us</a></li>
+                    <li class="menu--item"><a href="#">benefits</a></li>
+                    <li class="menu--item"><a href="#">prices</a></li>
+                    <li class="menu--item"><a href="#">contact</a></li>
                 </nav>
+                <div class="burger">
+                    <i class="fas fa-bars show"></i>
+                    <i class="fas fa-times "></i>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
 
-        <section class="opening__container container">
+        <section class="opening__container">
             <div class="opening__content">
                 <h1 class="content__title title--h1">Sell More!</h1>
                 <p class="content__text text--p">Open shop on out platform and increase your sales</p>
                 <a href="#" class="content__btn--big content__btn--edit text--p">Open your shop</a>
             </div>
-            <img src="/assets/Background.png" alt="" class="content__img">
+            <img src="./assets/Background.png" alt="" class="content__img">
         </section>
 
-        <section class="statistics__container container">
+        <section class="statistics container">
             <div class="statistics__title opening__content">
                 <h2 class="statistisc__title--edit title--h2">The most popular sales platform in country</h2>
             </div>
             <div class="statistics__box">
                 <div class="statistics__box--elements elements--margin">
                     <div class="element--circle">
-                        <img src="/assets/Person.svg" class="element__person" alt="">
+                        <img src="./assets/Person.svg" class="element__person" alt="">
                     </div>
                     <p class="element__entries">100000+</p>
                     <p class="element__text">daily entries</p>
@@ -70,7 +80,9 @@
             <div class="benefits__container container">
                 <div class="benefits__content">
                     <h2 class="benefits__title title--h2">Be always first</h2>
-                    <p class="benefits__text text--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vitae, voluptatem eaque nesciunt doloremque praesentium aperiam, libero modi dolor repellendus a culpa earum nam?</p>
+                    <p class="benefits__text text--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                        vitae, voluptatem eaque nesciunt doloremque praesentium aperiam, libero modi dolor repellendus a
+                        culpa earum nam?</p>
                 </div>
                 <div class="benefits__macbook macbook--square">
                     <img src="/assets/Macbook.png" alt="Macbook" class="content__macbook--img">
@@ -79,22 +91,26 @@
 
             <div class="benefits__container container">
                 <div class="iphone__container">
-                <div class="benefits__iphone">
-                    <img src="/assets/iPhone.png" alt="Macbook" class="content__iphone--img">
+                    <div class="benefits__iphone">
+                        <img src="/assets/iPhone.png" alt="Macbook" class="content__iphone--img">
+                    </div>
                 </div>
-            </div>
                 <div class="benefits__content benefits__content--edit">
                     <h2 class="benefits__title title--h2">Your shop is <br> where you are!</h2>
-                    <p class="benefits__text text--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vitae, voluptatem eaque nesciunt doloremque praesentium aperiam, libero modi dolor repellendus a culpa earum nam?</p>
+                    <p class="benefits__text text--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                        vitae, voluptatem eaque nesciunt doloremque praesentium aperiam, libero modi dolor repellendus a
+                        culpa earum nam?</p>
                 </div>
             </div>
 
             <div class="benefits__double">
                 <div class="benefits__double--content">
                     <div class="benefits__double--elements">
-                    <h2 class="benefits__title title--h2">Increase recognition <br> your brand!</h2>
-                    <p class="benefits__text text--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vitae, voluptatem eaque nesciunt doloremque praesentium aperiam, libero modi dolor repellendus a culpa earum nam?</p>
-                </div>
+                        <h2 class="benefits__title title--h2">Increase recognition <br> your brand!</h2>
+                        <p class="benefits__text text--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                            vitae, voluptatem eaque nesciunt doloremque praesentium aperiam, libero modi dolor
+                            repellendus a culpa earum nam?</p>
+                    </div>
                 </div>
                 <div class="benefits__double--image">
                     <img src="/assets/Trumpet.png" alt="">
@@ -110,8 +126,8 @@
 
             <div class="pricing__containers">
 
-            <!-- column Basic -->
-            
+                <!-- column Basic -->
+
                 <div class="pricing__container pricing__container--basic">
                     <div class="pricing__details">
                         <div class="pricing__type">Basic</div>
@@ -126,9 +142,9 @@
                     </ul>
                     <a href="#" class="pricing__btn basic__btn--color">Begin</a>
                 </div>
-           
-            <!-- column Professional -->
-            
+
+                <!-- column Professional -->
+
                 <div class="pricing__container pricing__container--professional">
                     <div class="pricing__details">
                         <div class="pricing__type">Professional</div>
@@ -144,9 +160,9 @@
                     </ul>
                     <a href="#" class="pricing__btn professional__btn--color">Begin</a>
                 </div>
-            
-            <!-- column Premium -->
-            
+
+                <!-- column Premium -->
+
                 <div class="pricing__container pricing__container--premium">
                     <div class="pricing__details">
                         <div class="pricing__type">Premium</div>
@@ -163,30 +179,87 @@
                     <a href="#" class="pricing__btn premium__btn--color">Begin</a>
                 </div>
 
-        </div>
+            </div>
 
         </section>
 
     </main>
 
+    <section class="contact container">
+
+
+        <!-- first container -->
+        <div class="contact__title contact--col">
+
+            <h1 class="title--big">Any questions?</h1>
+            <p class="text--small">Leave your email addres or call us!</p>
+
+            <div class="contact__details">
+                <a href="#" class="details--item"><img src="./assets/Mail Icon.svg" alt="mail">info@bestshop.com</a>
+                <a href="#" class="details--item"><img src="./assets/Phone Icon.svg" alt="phone number">123 456 789</a>
+            </div>
+        </div>
+
+        <!-- Second container -->
+        <div class="contact__form contact--col">
+            <form action="wy.pl" class="form">
+                <div class="form__row">
+                    <label for="imie" class="form__label" id="imie">Imię</label>
+                    <input type="text" class="form__input">
+                </div>
+                <div class="form__row">
+                    <label for="email" class="form__label">Email</label>
+                    <input type="text" class="form__input" id="email">
+                </div>
+                <div class="form__row">
+                    <label class="form__checkbox">
+                        <input class="checkbox" type="checkbox">
+                        <span class="checkbox"></span>
+                        <p class="form__checkbox-text">
+                            I hereby give consent for my personal data included in my
+                            application
+                            to be
+                            processed for the
+                            purposes of the recruitment process under the European Parliament's and Council of the
+                            European
+                            Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to
+                            the
+                            processing of personal data and on the free movement of such data, and repealing Directive
+                            95/46/EC (Data Protection Directive)
+                        </p>
+                    </label>
+                </div>
+                <div class="form__row">
+                    <button type="submit" class="form__button">Send</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+
+
     <footer class="footer ">
 
-        <div class="footer__container container__footer">
+        <div class="footer__container container">
 
             <div class="footer__details">
-            <a href="#" class="footer__logo">BestShop</a>
-            <p class="footer__rights">&copy 2019 BestShop LTD, All rights Reserved</p>
-        </div>
-        
+                <a href="#" class="footer__logo">BestShop</a>
+                <p class="footer__rights">&copy 2019 BestShop LTD, All rights Reserved</p>
+            </div>
 
-        <div class="footer__icons">
-            <a href="#" class="icon__twitter"></a>
-            <a href="#" class="icon__facebook"></a>
-        </div>
+
+            <div class="footer__icons">
+                <a href="#" class="icon__twitter"></a>
+                <a href="#" class="icon__facebook"></a>
+            </div>
 
         </div>
 
     </footer>
 
+    <script src="./app.js"></script>
+
 </body>
+
 </html>

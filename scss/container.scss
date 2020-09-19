@@ -1,0 +1,11 @@
+/* is used for center containers with elements */
+.container {
+    max-width: 1352px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1352px) {
+    .container {
+        @include container();
+    }
+}

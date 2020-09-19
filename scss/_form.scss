@@ -1,0 +1,130 @@
+/* SECTION CONTACT - FORM */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 80px 100px;
+}
+
+.contact--col {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.contact__title {
+
+    & h1 {
+        margin-bottom: 22px;
+    }
+
+    & p {
+        margin-bottom: 42px;
+    }
+
+    .contact__details {
+        a {
+            font: normal normal bold 16px/22px Open Sans;
+            text-decoration: none;
+            color: var(--color-grey);
+        }
+
+        a:first-of-type {
+            margin-right: 20px;
+        }
+
+        img {
+            margin-right: 10px;
+        }
+
+    }
+}
+
+// FORM
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form__row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.form__label {
+    text-transform: uppercase;
+    font: normal normal bold 13px/15px Open Sans;
+    letter-spacing: 2px;
+    color: var(--color-primary);
+}
+
+.form__input {
+    border: none;
+    margin-top: 30px;
+    border-bottom: 2px solid rgba(grey, .5);
+}
+
+.form__button {
+    align-self: flex-end;
+    padding: 15px 80px;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px var(--color-primary);
+    font: normal normal bold 16px/18px Open Sans;
+    color: white;
+}
+
+// checkbox
+
+.form__checkbox {
+    margin-top: 20px;
+}
+
+.form__checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.form__checkbox input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    cursor: pointer;
+}
+
+.form__checkbox .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
+}
+
+.form__checkbox input:checked~.checkbox {
+    background-image: url(../assets/Checkmark.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.form__checkbox .form__checkbox-text {
+    margin: 0 10px;
+    font-size: 12px;
+    color: var(--color-grey);
+    line-height: 17px;
+}
+
+
+.small--edit {
+    font-size: 12px;
+}

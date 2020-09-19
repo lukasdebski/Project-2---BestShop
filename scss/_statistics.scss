@@ -1,0 +1,70 @@
+/* SECTION Statistics */
+
+.statistics__title {
+    margin: 100px 0;
+}
+
+.title--h2,
+.title--medium {
+    font: normal normal normal 36px/42px Raleway;
+    color: var(--color-black);
+    /* border: 2px solid black; */
+}
+
+/* SECTION Statistics */
+
+.statistics__box {
+    display: flex;
+    justify-content: center;
+}
+
+.element--circle {
+    display: flex;
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-redish);
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.circle--color {
+    background-color: var(--color-primary);
+}
+
+.circle--color2 {
+    background-color: var(--color-green);
+}
+
+.element__person {
+    position: relative;
+    left: 50%;
+}
+
+.element__entries {
+    margin-bottom: 50px;
+    font: normal normal 800 20px/24px Raleway;
+    letter-spacing: 6px;
+}
+
+.element__text {
+    font: normal normal normal 17px/20px Raleway;
+    color: var(--color-grey);
+}
+
+.statistics__box--elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 167px;
+    width: 125px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.elements--margin {
+    margin-right: 200px;
+}
+
+.elements--margin2 {
+    margin-left: 200px;
+}
